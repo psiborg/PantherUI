@@ -74,3 +74,15 @@ Panther.Carousel.init({
 });
 </script>
 ```
+
+## Building
+
+To build the library yourself, you will need to have [Node.js](http://nodejs.org/) installed.
+
+To install the dependancies (jake, uglify-js, and  clean-css), run the configure script in your shell:
+
+    ./configure
+
+Then run Jake to build the library:
+
+    jake
