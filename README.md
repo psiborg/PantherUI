@@ -8,11 +8,11 @@ The Carousel module lets you easily create multi-sided 3D carousels that you can
 
 **Demo:**
 
-http://dl.dropboxusercontent.com/u/5670642/blackberry/webworks/bb10/psiborg/PantherUI/app.html
+http://psiborg.github.io/PantherUI/
 
 **Usage:** (see basic1a.html)
 
-1. Include the PantherUI.min.css file, and add your own CSS for size and position.
+1. Include the PantherUI.min.css file, and add your own CSS for the container to set the size and position.
 
 ``` css
 <link rel="stylesheet" href="lib/PantherUI.min.css">
@@ -27,7 +27,7 @@ http://dl.dropboxusercontent.com/u/5670642/blackberry/webworks/bb10/psiborg/Pant
 </style>
 ```
 
-2. Add HTML markup. To create a 4-sided carousel, just add 4 figure elements.
+2. Add the following HTML markup for the container and carousel structure. To create a 4-sided carousel, use 4 figure elements. To add more sides, just add more figure blocks.
 
 ``` html
 <section class="panther-Carousels">
@@ -62,7 +62,7 @@ http://dl.dropboxusercontent.com/u/5670642/blackberry/webworks/bb10/psiborg/Pant
 </section>
 ```
 
-3. Include the PantherUI.min.js file, and add your JavaScript to configure and initialize the carousel(s) by element ID:
+3. Include the PantherUI.min.js file, and add your JavaScript to configure and initialize the carousel by element ID.
 
 ``` js
 <script src="lib/PantherUI.min.js"></script>
