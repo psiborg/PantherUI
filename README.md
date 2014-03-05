@@ -19,7 +19,9 @@ http://psiborg.github.io/PantherUI/
 
 ### Screenshots
 
-
+![Desktop/Tablet](https://raw.github.com/psiborg/PantherUI/master/docs/img/screenshots/tablet.png)
+![Z30 Landscape](https://raw.github.com/psiborg/PantherUI/master/docs/img/screenshots/z30.png)
+![Q10](https://raw.github.com/psiborg/PantherUI/master/docs/img/screenshots/q10.png)
 
 ### Usage (see templates/basic1a.html)
 
