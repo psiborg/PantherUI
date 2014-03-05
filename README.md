@@ -1,6 +1,8 @@
 PantherUI
 =========
 
+The PantherUI is a collection of JavaScript modules and templates for creating responsive UIs for desktop and mobile web apps.
+
 Carousel
 --------
 
