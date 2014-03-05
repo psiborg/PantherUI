@@ -15,7 +15,7 @@ http://psiborg.github.io/PantherUI/
 1. Include the PantherUI.min.css file, and add your own CSS for the container to set the size and position.
 
 ``` css
-<link rel="stylesheet" href="lib/PantherUI.min.css">
+<link rel="stylesheet" href="dist/PantherUI.min.css">
 
 <style>
 #container1 {
@@ -65,7 +65,7 @@ http://psiborg.github.io/PantherUI/
 3. Include the PantherUI.min.js file, and add your JavaScript to configure and initialize the carousel by element ID.
 
 ``` js
-<script src="lib/PantherUI.min.js"></script>
+<script src="dist/PantherUI.min.js"></script>
 
 <script>
 // Initialize carousel
