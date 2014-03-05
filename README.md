@@ -1,18 +1,27 @@
-PantherUI
-=========
+# PantherUI
 
 The PantherUI is a collection of JavaScript modules and templates for creating responsive UIs for desktop and mobile web apps.
 
-Carousel
---------
-
+## Carousel
 The Carousel module lets you easily create multi-sided 3D carousels that you can rotate horizontally or vertically.
 
-**Demo:**
+### Applies To
+- BlackBerry WebWorks
 
+### Author(s)
+- Jim Ing
+
+### Dependencies
+- None
+
+### Demo
 http://psiborg.github.io/PantherUI/
 
-**Usage:** (see basic1a.html)
+### Screenshots
+
+
+
+### Usage (see templates/basic1a.html)
 
 1. Include the PantherUI.min.css file, and add your own CSS for the container to set the size and position.
 
@@ -77,7 +86,7 @@ Panther.Carousel.init({
 </script>
 ```
 
-## Building
+### How to Build
 
 To build the library yourself, you will need to have [Node.js](http://nodejs.org/) installed.
 
@@ -88,3 +97,6 @@ To install the dependancies (jake, uglify-js, and  clean-css), run the configure
 Then run Jake to build the library:
 
     jake
+
+## Disclaimer
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

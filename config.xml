@@ -15,7 +15,7 @@
 
     <content src="index.html" />
 
-    <icon src="lib/panther/img/logos/waawesome626_256x256.png" />
+    <icon src="img/logos/waawesome626_256x256.png" />
 
     <rim:orientation mode="auto" />
 
