@@ -67,6 +67,7 @@ Panther.Carousel = (function () {
         this.prevStyle = {};
         this.callback = null;
         this.callbackBreak = false;
+        this.isIE11 = navigator.userAgent.match(/Trident\/7\./);
     }
 
     /**
@@ -74,7 +75,7 @@ Panther.Carousel = (function () {
      */
     Carousel3D.prototype.modify = function () {
         console.info('Carousel3D - modify:');
-        var panel, angle, i;
+        var panel, angle, i, transformFn;
 
         this.panelCount = this.element.children.length;
         this.panelSize = this.element[this.isHorizontal ? 'offsetWidth' : 'offsetHeight'];
@@ -94,14 +95,21 @@ Panther.Carousel = (function () {
             angle = this.theta * i;
             panel.style.opacity = 1;
             panel.style.backgroundColor = this.backgroundColor;
+            transformFn = this.rotateFn + '(' + angle + 'deg) translateZ(' + this.radius + 'px)';
+
+            // TODO: add workaround for IE10+ since it doesn't support "transform-style: preserve-3d"
+            //       need to animate child elements individually
+            if (this.isIE11) {
+                //transformFn = 'perspective (1050px) ' + transformFn;
+            }
 
             // Rotate panel, then push it out in 3D space
-            panel.style.WebkitTransform = this.rotateFn + '(' + angle + 'deg) translateZ(' + this.radius + 'px)';
-            panel.style.MozTransform = this.rotateFn + '(' + angle + 'deg) translateZ(' + this.radius + 'px)';
-            //panel.style.MsTransform = this.rotateFn + '(' + angle + 'deg) translateZ(' + this.radius + 'px)';
-            panel.style.msTransform = this.rotateFn + '(' + angle + 'deg) translateZ(' + this.radius + 'px)';
-            panel.style.OTransform = this.rotateFn + '(' + angle + 'deg) translateZ(' + this.radius + 'px)';
-            panel.style.Transform = this.rotateFn + '(' + angle + 'deg) translateZ(' + this.radius + 'px)';
+            panel.style.WebkitTransform = transformFn;
+            panel.style.MozTransform = transformFn;
+            //panel.style.MsTransform = transformFn;
+            panel.style.msTransform = transformFn;
+            panel.style.OTransform = transformFn;
+            panel.style.Transform = transformFn;
         }
 
         // Adjust rotation so panels are always flat
@@ -115,13 +123,19 @@ Panther.Carousel = (function () {
     Carousel3D.prototype.transform = function () {
         console.info('Carousel3D - transform:');
 
+        var transformFn = 'translateZ(-' + this.radius + 'px) ' + this.rotateFn + '(' + this.rotation + 'deg)';
+        // TODO:
+        if (this.isIE11) {
+            //transformFn = 'perspective (1050px) ' + transformFn;
+        }
+
         // Push the carousel back in 3D space, and rotate it
-        this.element.style.WebkitTransform = 'translateZ(-' + this.radius + 'px) ' + this.rotateFn + '(' + this.rotation + 'deg)';
-        this.element.style.MozTransform = 'translateZ(-' + this.radius + 'px) ' + this.rotateFn + '(' + this.rotation + 'deg)';
-        //this.element.style.MsTransform = 'translateZ(-' + this.radius + 'px) ' + this.rotateFn + '(' + this.rotation + 'deg)';
-        this.element.style.msTransform = 'translateZ(-' + this.radius + 'px) ' + this.rotateFn + '(' + this.rotation + 'deg)';
-        this.element.style.OTransform = 'translateZ(-' + this.radius + 'px) ' + this.rotateFn + '(' + this.rotation + 'deg)';
-        this.element.style.Transform = 'translateZ(-' + this.radius + 'px) ' + this.rotateFn + '(' + this.rotation + 'deg)';
+        this.element.style.WebkitTransform = transformFn;
+        this.element.style.MozTransform = transformFn;
+        //this.element.style.MsTransform = transformFn;
+        this.element.style.msTransform = transformFn;
+        this.element.style.OTransform = transformFn;
+        this.element.style.Transform = transformFn;
 
         this.prevSideIndex = this.sideIndex;
 
@@ -154,7 +168,7 @@ Panther.Carousel = (function () {
         var figure = document.createElement('figure'),
             html = '';
 
-        // TODO:
+        // TODO: allow markup to be passed in
         html += '<div class="panther-Carousel-panelTitleBar">';
         html += '<span class="panther-Carousel-panelTitle">&lt; ' + title + ' &gt;</span>';
         html += '<span class="panther-Carousel-panelMaximize">&nbsp;</span>';
