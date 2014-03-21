@@ -169,12 +169,14 @@ html, body {
 .panther-Carousel-panelContent li {
     background-color: #FAFAFA;
     border-bottom: 1px solid #CCC;
+    color: #000;
     margin: 0;
     padding: 10px;
 }
 
 .panther-Carousel-panelContent li:nth-child(even) {
     background-color: #F0F0F0;
+    color: #000;
 }
 
 .panther-Carousel-panelContent li:first-child {
