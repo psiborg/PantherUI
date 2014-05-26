@@ -200,3 +200,139 @@ Apache License
    See the License for the specific language governing permissions and
    limitations under the License.
 
+
+---[ docs/img ]---------------------------------------------------------------
+
+
+arrow_wasd_keys.png
+
+  http://commons.wikimedia.org/wiki/File:Qwerty.svg
+  This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license.
+
+  You are free:
+    - to share – to copy, distribute and transmit the work
+    - to remix – to adapt the work
+
+  Under the following conditions:
+    - attribution – You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
+    - share alike – If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+
+bezier_curve_ease.png
+bezier_curve_easeInOutBack.png
+
+  http://cubic-bezier.com/#.68,-0.55,.27,1.55
+
+swipe.png
+swipe_left.png
+swipe_right.png
+
+  http://openclipart.org/detail/175322/multitouch---swipe-by-williamtheaker-175322
+  Public Domain
+
+
+---[ docs/img/samples ]-------------------------------------------------------
+
+
+License Information
+http://www.bigbuckbunny.org/index.php/about/
+
+The results of the Peach open movie project has been licensed under the Creative Commons Attribution 3.0 license. This includes all the data we’ve published online and on the DVDs, and all of the contents on this website. If any content on this site is not licensed as such, it will be clearly indicated.
+
+In short, this means you can freely reuse and distribute this content, also commercially, for as long you provide a proper attribution.
+
+The Attribution Is Either One Of The Following Cases
+1) For this website and files on the DVD ROMs:
+Blender Foundation | www.blender.org
+
+2) If you screen or broadcast the entire movie and/or documentary:
+Include the entire credits roll in ending.
+
+3) If you re-use (or screen, broadcast) parts of the movie or documentary itself, or duplicate the DVDs:
+(c) copyright 2008, Blender Foundation / www.bigbuckbunny.org
+
+4) Some of the texture files on the DVDs have an own Creative Commons attribution, these are indicated clearly.
+
+Excluded from the Creative Commons is:
+
+- all logos on this website (including Blender logo, Creative Commons logo) and associated trademarks
+- the DVD cover (inlay) and DVD disc print
+
+Examples
+
+You are free to duplicate the DVDs and distribute or sell them, but in that case you have to make your own cover art and DVD prints for it, with of course the proper attribution as mentioned above in 3).
+
+You are free to broadcast the movie and documentary on your local TV station, just include the entire credits roll too.
+
+You can re-edit parts of the movie into a video clip for your band, just include the attribution as mentioned above in 3).
+
+You can use textures and .blend files (or models, rigs, etc) from the data collection on the DVDs, also in commercial projects. Just make sure we get our short credit as mentioned above in 1).
+
+You can organize a screening in a cinema, and charge an entrance fee for it. Just include the movie credits in the screening.
+
+You can submit the movie to festivals even! Festivals can also screen the movie without our permission. It would be nice though to get a notification for it, especially when we win prizes! :)
+
+How it started
+
+As a follow-up to the successful project Orange’s “Elephants Dream”, the Blender Foundation initiated another open movie project. Again a small team (7) of the best 3D artists and developers in the Blender community have been invited to come together to work in Amsterdam from October 2007 until April 2008 on completing a short 3D animation movie. The team members will get a great studio facility and housing in Amsterdam, all travel costs reimbursed, and a fee sufficient to cover all expenses during the period.
+
+The creative concept of “Peach” was completely different as for “Orange”. This time it is “funny and furry”!
+
+The Blender Foundation and Blender community have been the main financiers for Peach. As for the previous open movie, a pre-sale campaign to purchase the DVD set in advance will be organized.
+
+Additional support from sponsors and subsidy funds has been realized as well.
+
+Peach also was the first Open Project hosted by the new Blender Institute in Amsterdam. This will make the project more independent, without much involvement of production partners, and also will ensure continuity.
+
+Peach Targets
+This Open movie project had as main targets:
+
+Developing tools in Blender for editing and rendering hair, fur or grass
+Improve character animation tools for cartoonish motion and deformation
+Test Blender with giant outdoor environments, with large grassy fields and many trees with leaves
+Further validate Blender as a professional animation creation suite
+And secondary:
+
+Create a great and good looking animation short, licensed freely as open content
+Provide content for other artists to learn from or to re-use, including documentation and tutorials
+And of course: Have lots of fun!
+
+
+---[ docs/lib/highlight ]-----------------------------------------------------
+
+
+Copyright (c) 2006, Ivan Sagalaev
+All rights reserved.
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+    * Neither the name of highlight.js nor the names of its contributors
+      may be used to endorse or promote products derived from this software
+      without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND ANY
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE REGENTS AND CONTRIBUTORS BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+---[ img ]--------------------------------------------------------------------
+
+
+toggle-horz-light-*.png
+toggle-horz-trans-*.png
+toggle-vert-light-*.png
+toggle-vert-trans-*.png
+
+  License: Creative Commons (Attribution 3.0 Unported)
+  https://www.iconfinder.com/icons/68630/expand_sticker_toggle_icon
