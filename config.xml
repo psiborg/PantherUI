@@ -21,6 +21,7 @@
 
     <feature id="blackberry.app">
         <param name="orientation" value="auto"></param>
+        <param name="childBrowser" value="disable"></param>
     </feature>
 
 <!--
